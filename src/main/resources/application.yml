@@ -3,5 +3,3 @@ spring:
     name: sgivu-discovery
   config:
     import: configserver:http://sgivu-config:8888
-  profiles:
-    active: prod
